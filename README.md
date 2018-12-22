@@ -57,3 +57,10 @@
     新建一行：PermitRootLogin yes
 > 4. 重启ssh服务
 > > service ssh restart
+
+## 2018/12/22
+### 一、git全局配置
+>   git config --global user.email "you@example.com"
+>   git config --global user.name "Your Name"
+### 二、解决git push/pull时总要输入密码的方案
+> git config --global credential.helper store
